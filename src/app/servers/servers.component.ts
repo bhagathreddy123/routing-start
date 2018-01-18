@@ -20,7 +20,7 @@ export class ServersComponent implements OnInit {
 
   onReload() {
   	// Using Relative Paths in Programmatic Navigation
-  	this.router.navigate(['servers'], {relativeTo: this.route })
+  	// this.router.navigate(['servers'], {relativeTo: this.route })
   }
 
 }
