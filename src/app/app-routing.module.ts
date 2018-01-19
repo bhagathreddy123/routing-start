@@ -26,8 +26,8 @@ const appRoutes: Routes = [
   { path: ':id', component: ServerComponent },
   { path: ':id/edit', component: EditServerComponent, canDeactivate: [CanDeactivateGuard] }
  ]},
-  	{ path: 'not-found', component: PageNotFoundComponent },
-    //{ path: 'not-found', component: ErrorPageComponent, data: {message: 'Page not found!'} },
+  	//{ path: 'not-found', component: PageNotFoundComponent },
+    { path: 'not-found', component: ErrorPageComponent, data: {message: 'Page not found!'} },
 	{ path: '**', redirectTo: '/not-found' }
 ];
 
